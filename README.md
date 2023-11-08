@@ -1,13 +1,9 @@
 # Next.js + Tailwind CSS + TypeScript Starter and Boilerplate
 
 <div align="center">
-  <h2>🔋 ts-nextjs-tailwind-starter</h2>
+  <h2>🔥 The best way to start your NextJS project 🔥</h2>
   <p>Next.js + Tailwind CSS + TypeScript starter packed with useful development features.</p>
-  <p>Made by <a href="https://theodorusclarence.com">Theodorus Clarence</a></p>
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/theodorusclarence/ts-nextjs-tailwind-starter)](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/stargazers)
-[![Depfu](https://badges.depfu.com/badges/fc6e730632ab9dacaf7df478a08684a7/overview.svg)](https://depfu.com/github/theodorusclarence/ts-nextjs-tailwind-starter?project_id=30160)
-[![Last Update](https://img.shields.io/badge/deps%20update-every%20sunday-blue.svg)](https://shields.io/)
+  <p>Made by <a href="https://github.com/0xMazout">0xMazout</a></p>
 
 </div>
 
@@ -21,6 +17,11 @@ This repository is 🔋 battery packed with:
 - 💨 Tailwind CSS 3 — Configured with CSS Variables to extend the **primary** color
 - 💎 Pre-built Components — Components that will **automatically adapt** with your brand color, [check here for the demo](https://tsnext-tw.thcl.dev/components)
 - 🃏 Jest — Configured for unit testing
+- 👑 Zustand - Lightweight state management
+- 🌐 i18n - Internationalization framework
+- 🔨 Clsx - Utility for constructing className strings conditionally.
+- 🔎 Tanstack React Query - Helper and Hooks for your queries
+- ⛏️ React Hook Form - To handle form with React
 - 📈 Absolute Import and Path Alias — Import components using `@/` prefix
 - 📏 ESLint — Find and fix problems in your code, also will **auto sort** your imports
 - 💖 Prettier — Format your code consistently
@@ -55,7 +56,7 @@ You can also check all of the **details and demos** on my blog post:
 2. Using `create-next-app`
 
    ```bash
-   pnpm create next-app  -e https://github.com/theodorusclarence/ts-nextjs-tailwind-starter ts-pnpm
+   pnpm create-next-app -e https://github.com/0xMazout/ts-nextjs-tailwind-starter-fullpack-approuter ts-pnpm
    ```
 
    If you still want to use **pages directory** (_is not actively maintained_) you can use this command
@@ -67,12 +68,12 @@ You can also check all of the **details and demos** on my blog post:
 3. Using `degit`
 
    ```bash
-   npx degit theodorusclarence/ts-nextjs-tailwind-starter YOUR_APP_NAME
+   npx degit 0xmazout/ts-nextjs-tailwind-starter-fullpack-approuter YOUR_APP_NAME
    ```
 
 4. Deploy to Vercel
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/0xMazout/ts-nextjs-tailwind-starter-fullpack-approuter)
 
 ### 2. Install dependencies
 
@@ -112,22 +113,4 @@ TEMPLATE
 - [sitename](https://sitelink.com)
 -->
 
-- [theodorusclarence.com](https://theodorusclarence.com) ([Source](https://github.com/theodorusclarence/theodorusclarence.com))
-- [Notiolink](https://notiolink.thcl.dev/) ([Source](https://github.com/theodorusclarence/notiolink))
 - [NextJs + Materia UI + Typescript](https://github.com/AlexStack/nextjs-materia-mui-typescript-hook-form-scaffold-boilerplate-starter)
-
-Are you using this starter? Please add your page (and repo) to the end of the list via a [Pull Request](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/edit/main/README.md). 😃
-
-## Expansion Pack 📦
-
-This starter is now equipped with an [expansion pack](https://github.com/theodorusclarence/expansion-pack).
-
-You can easily add expansion such as React Hook Form + Components, Storybook, and more just using a single command line.
-
-<https://user-images.githubusercontent.com/55318172/146631994-e1cac137-1664-4cfe-950b-a96decc1eaa6.mp4>
-
-Check out the [expansion pack repository](https://github.com/theodorusclarence/expansion-pack) for the commands
-
-### App Router Update
-
-Due to App Router update, the expansion pack is currently **outdated**. It will be updated in the future. You can still use them by copy and pasting the files.
