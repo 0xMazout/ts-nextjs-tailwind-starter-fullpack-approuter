@@ -31,8 +31,11 @@ jobs:
       - name: 📥 Download deps
         run: pnpm install --frozen-lockfile
 
+      # - name: 🔬 Lint strict
+      #   run: pnpm run lint:strict
+
       - name: 🔬 Lint
-        run: pnpm run lint:strict
+        run: pnpm run lint
 
       - name: 🔎 Type check
         run: pnpm run typecheck

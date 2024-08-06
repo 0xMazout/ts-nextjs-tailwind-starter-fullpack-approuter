@@ -4,13 +4,19 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  plugins: ['@typescript-eslint', 'simple-import-sort', 'unused-imports'],
+  plugins: [
+    '@typescript-eslint',
+    'simple-import-sort',
+    'unused-imports',
+    'cypress',
+  ],
   extends: [
     'eslint:recommended',
     'next',
     'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
     'prettier',
+    'plugin:cypress/recommended',
   ],
   rules: {
     'no-unused-vars': 'off',
@@ -23,6 +29,13 @@ module.exports = {
       'warn',
       { props: 'never', children: 'never' },
     ],
+    'cypress/no-assigning-return-values': 'warn',
+    'cypress/no-unnecessary-waiting': 'warn',
+    'cypress/assertion-before-screenshot': 'warn',
+    'cypress/no-force': 'warn',
+    'cypress/no-async-tests': 'warn',
+    'cypress/no-async-before': 'error',
+    'cypress/no-pause': 'error',
 
     //#region  //*=========== Unused Import ===========
     '@typescript-eslint/no-unused-vars': 'off',
