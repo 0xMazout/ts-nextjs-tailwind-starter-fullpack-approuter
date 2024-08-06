@@ -37,7 +37,7 @@ export default function HomePage() {
             Import, Seo, Link component, pre-configured with Husky{' '}
           </p>
           <p className='mt-2 text-sm text-gray-700'>
-            <ArrowLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
+            <ArrowLink href='https://github.com/0xMazout/ts-nextjs-tailwind-starter-fullpack-approuter'>
               See the repository
             </ArrowLink>
           </p>
@@ -61,8 +61,8 @@ export default function HomePage() {
 
           <footer className='absolute bottom-2 text-gray-700'>
             © {new Date().getFullYear()} By{' '}
-            <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-              Theodorus Clarence
+            <UnderlineLink href='https://github.com/0xmazout'>
+              0xMazout
             </UnderlineLink>
           </footer>
         </div>

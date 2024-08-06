@@ -15,7 +15,7 @@ This repository is 🔋 battery packed with:
 - ⚛️ React 18
 - ✨ TypeScript
 - 💨 Tailwind CSS 3 — Configured with CSS Variables to extend the **primary** color
-- 💎 Pre-built Components — Components that will **automatically adapt** with your brand color, [check here for the demo](https://tsnext-tw.thcl.dev/components)
+- 💎 Pre-built Components — Components that will **automatically adapt** with your brand color
 - 🃏 Jest — Configured for unit testing
 - 👑 Zustand - Lightweight state management
 - 🌐 i18n - Internationalization framework
@@ -35,12 +35,6 @@ This repository is 🔋 battery packed with:
 - 🗺 Site Map — Automatically generate sitemap.xml
 - 📦 Expansion Pack — Easily install common libraries, additional components, and configs.
 
-See the 👉 [feature details and changelog](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/blob/main/CHANGELOG.md) 👈 for more.
-
-You can also check all of the **details and demos** on my blog post:
-
-- [One-stop Starter to Maximize Efficiency on Next.js & Tailwind CSS Projects](https://theodorusclarence.com/blog/one-stop-starter)
-
 ## Getting Started
 
 ### 1. Clone this template using one of the three ways
@@ -57,12 +51,6 @@ You can also check all of the **details and demos** on my blog post:
 
    ```bash
    pnpm create-next-app -e https://github.com/0xMazout/ts-nextjs-tailwind-starter-fullpack-approuter ts-pnpm
-   ```
-
-   If you still want to use **pages directory** (_is not actively maintained_) you can use this command
-
-   ```bash
-   npx create-next-app -e https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/tree/pages-directory project-name
    ```
 
 3. Using `degit`
